@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!-- menu  -->
+    <div class="container">
+        <div class=" card">
+
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">RPK list to docs</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
+                    <a class="nav-item nav-link" href="#">listas</a>
+                    <a class="nav-item nav-link" href="#">ok</a>
+                    <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+
+    <!--  menu -->
+
+
+    <!-- inicio aplicacion -->
+     <div class="mr-5 ml-5 mt-3">
+        <div class="card">
+            <h4 class="ml-3 mb-0">Pantalla 4 - Administracion de imagenes. </h4>
+            <div class="row m-2">
+                <div class="col-sm-6 col-md-6  col-lg-6 col-xl-6 card">
+                    <!-- inicio lista editable -->
+                    <!-- <p> -->
+
+                    <select id="sel" size="10" class="form-control">
+                        <option value="">1920 2 alitas +2</option>
+                        <option value="">RPK PLACA</option>
+                        <option value="">menu</option>
+                        <option value="">sandwich de pollo ahumado</option>
+                    </select>
+                    <div class="row text-center m-2">
+                        <div class="col-sm-6 col-md-6  col-lg-6 col-xl-6">
+                            <input type="button" value="Arriba" onclick="arriba()">
+                        </div>
+                        <div class="col-sm-6 col-md-6  col-lg-6 col-xl-6">
+                            <input type="button" value="Abajo" onclick="abajo()">
+                        </div>
+                    </div>
+                    <!-- </p> -->
+                    <!-- fin lista editable -->
+                </div>
+                <div class="col-sm-4 col-md-4  col-lg-4 col-xl-4 mt-0">
+                    <div class="card" style="width: 18rem;">
+                        
+
+                    </div>
+                </div>
+            </div>
+            <div class="row text-right m-3">
+                <div class="col-sm-12 col-md-12  col-lg-12 col-xl-12">
+                    <button id="guardar" type="button" class="btn btn-outline-success" onclick="extraer_lista()">Guardar</button>
+                    <button id="ver" type="button" class="btn btn-outline-success" ></button>
+                    
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- fin  aplicacion -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- <script src="js/jquery-3.3.1.slim.min.js"></script> -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/rpk.js"></script>
+
+</body>
+</html>
