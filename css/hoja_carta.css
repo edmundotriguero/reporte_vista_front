@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+
+.hoja{
+    width: 612px;
+    height: 792px;
+    max-width: 612px;
+    max-height: 792px ;
+    min-width: 612px;
+    min-height: 792px;
+}
+
+.fondo{
+    background: f2f2f2;
+}
